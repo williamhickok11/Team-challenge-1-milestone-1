@@ -1,8 +1,8 @@
 
 var movies = [];
 	
-var movie01 = {
-	title: "<h1>Star Wars: A New Hope</h1>",
+var movie0 = {
+	title: "<h1>A New Hope</h1>",
 	imageURL: "<img src='http://ecx.images-amazon.com/images/I/91GAgvnO3AL._UY200_RI_UY200_.jpg'>",
 	bgSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Destination</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option><option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
 	txtSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Destination</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option>        <option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
@@ -10,8 +10,8 @@ var movie01 = {
 	price: "<p>$19.99</p>"
 }
 
-var movie02 = {
-	title: "<h1>Star Wars: The Empire Strikes Back</h1>",
+var movie1 = {
+	title: "<h1>The Empire Strikes Back</h1>",
 	imageURL: "<img src='http://ecx.images-amazon.com/images/I/91MYvGBxoCL._UY200_RI_UY200_.jpg'>",
 	bgSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Background Color</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option><option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
 	txtSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Text Color</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option>        <option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
@@ -19,47 +19,48 @@ var movie02 = {
 	price: "<p>$29.99</p>"
 }
 
-var movie03 = {
-title: "<h1>Missing Michael</h1>",
-imageURL: "<img src='http://ecx.images-amazon.com/images/I/91GAgvnO3AL._UY200_RI_UY200_.jpg'>",
-bgSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Destination</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option><option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
-txtSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Destination</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option>        <option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
-description: "<p>A horrible movie with spectacular music. The plot is not cohesive the acting is atrocious, but man is the music out of this world.</p>",
-price: "<p>$.49</p>"
+var movie2 = {
+	title: "<h1>Missing Michael</h1>",
+	imageURL: "<img src='http://ecx.images-amazon.com/images/I/91GAgvnO3AL._UY200_RI_UY200_.jpg'>",
+	bgSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Destination</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option><option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
+	txtSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Destination</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option>        <option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
+	description: "<p>A horrible movie with spectacular music. The plot is not cohesive the acting is atrocious, but man is the music out of this world.</p>",
+	price: "<p>$.49</p>"
 };
 
 
-var movie04 = {
-title: "<h1>Babe</h1>",
-imageURL: "<img src='http://ecx.images-amazon.com/images/I/91GAgvnO3AL._UY200_RI_UY200_.jpg'>",
-bgSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Destination</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option><option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
-txtSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Destination</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option>        <option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
-description: "<p>This is about a pig. This is about a pig This is about a pigThis is about a pig This is about a pig This is about a pig This is about a pig</p>",
-price: "<p>$.49</p>"
+var movie3 = {
+	title: "<h1>Babe</h1>",
+	imageURL: "<img src='http://ecx.images-amazon.com/images/I/91GAgvnO3AL._UY200_RI_UY200_.jpg'>",
+	bgSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Destination</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option><option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
+	txtSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Destination</option><option>Oranjestad, Aruba</option><option>Buenos Aires, Argentina</option><option>Marrakech, Morocco</option>        <option>Bangkok, Thailand </option><option>Singapore</option><option>Hanoi, Vietnam</option><option>Dublin, Ireland</option><option>Queenstown, New Zealand</option><option>Bora Bora</option>',
+	description: "<p>This is about a pig. This is about a pig This is about a pigThis is about a pig This is about a pig This is about a pig This is about a pig</p>",
+	price: "<p>$.49</p>"
 };
 
-movies.push(movie01);
-movies.push(movie02);	
+movies.push(movie0);
+movies.push(movie1);	
+movies.push(movie2);	
+movies.push(movie3);	
+
+var count = 0;
 
 function addProduct() {
-	for (var i = 0; i < movies.length; i++) {
-		var currentArticle = document.getElementById("movie");
-		currentArticle.innerHTML += "<article id='movie" + i + "'>";			
-		currentArticle.innerHTML += movies[i].title;
-		currentArticle.innerHTML += movies[i].imageURL;
-		currentArticle.innerHTML += movies[i].bgSelector;
-		currentArticle.innerHTML += movies[i].txtSelector;
-		currentArticle.innerHTML += movies[i].description;
-		currentArticle.innerHTML += movies[i].price;
-		currentArticle.innerHTML += "</article>";
-	};
+	
+	console.log(count);
+	var currentArticle = document.getElementById("movie");
+	currentArticle.innerHTML += "<article id='movie" + count + "'>";			
+	currentArticle.innerHTML += movies[count].title;
+	currentArticle.innerHTML += movies[count].imageURL;
+	currentArticle.innerHTML += movies[count].bgSelector;
+	currentArticle.innerHTML += movies[count].txtSelector;
+	currentArticle.innerHTML += movies[count].description;
+	currentArticle.innerHTML += movies[count].price;
+	currentArticle.innerHTML += "</article>";
+	count++;
 }
 
-// document.getElementById('createButton').addEventListener('click', createProduct);
-// function createProduct() {
-// 	movies.push(movie01);
-// 	addProduct();
-// }
+
 
 
 
