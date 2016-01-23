@@ -1,11 +1,39 @@
 .button1 {
-	background-color: green;
-	
+	background-color: green;	
 }
-
-
 
 .button2 {
 	background-color: blue;
 }
 
+article {
+  border: solid black 4px;
+  width: 30%;
+  min-width: 250px;
+  max-width: 350px;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: middle;
+  height: 650px;
+}
+
+img {
+  width: 70%;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  height: 57px;
+}
+
+.destination-type {
+  margin-left: 15%;
+}
+
+p {
+  text-align: justify;
+  margin: 20px 5%;
+}
