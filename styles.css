@@ -23,7 +23,11 @@ img {
   margin-left: 15%;
   border-radius: 5px;
 }
-
+button {
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 15%;
+}
 h1 {
   text-align: center;
   height: 57px;
