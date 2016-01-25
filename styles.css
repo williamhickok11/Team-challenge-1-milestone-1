@@ -14,7 +14,7 @@ article {
   margin: 1%;
   display: inline-block;
   vertical-align: middle;
-  height: 650px;
+ 
 }
 
 img {
@@ -25,8 +25,7 @@ img {
 }
 button {
   display: block;
-  margin-bottom: 20px;
-  margin-left: 15%;
+  
 }
 h1 {
   text-align: center;
