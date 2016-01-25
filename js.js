@@ -1,7 +1,6 @@
 var movieArray = [];
 
 var movie0 = {
-	title: "<h1>A New Hope</h1>",
 	imageURL: "<img src='http://ecx.images-amazon.com/images/I/91GAgvnO3AL._UY200_RI_UY200_.jpg'>",
 	bgSelector: '<select class="backgroundColor" name="type"><option selected="selected" disabled="disabled" value="off">Choose Background Color</option><option>White</option><option>Black</option><option value="red">Red</option><option>Green</option><option>Blue</option><option>Purple</option><option>Orange</option><option>Yellow</option>',
 	txtSelector: '<select class="destination-type" name="type"><option selected="selected" disabled="disabled">Choose Text Color</option><option>White</option><option>Black</option><option>Red</option><option>Green</option><option>Blue</option><option>Purple</option><option>Orange</option><option>Yellow</option>',
@@ -73,6 +72,10 @@ function addProduct() {
     }
     hide();
   };
+
+  //*** ADD USER TITLE ***//
+  movieArray[count].title = document.getElementById("userInput").value;
+
 
   //*** ADD ARTICLES-CARDS TO THE DIV ***//
   var divSelector = document.getElementById("movie");
