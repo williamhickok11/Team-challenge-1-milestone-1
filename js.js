@@ -1,5 +1,5 @@
 var movieArray = [];
-	
+
 var movie0 = {
 	title: "<h1>A New Hope</h1>",
 	imageURL: "<img src='http://ecx.images-amazon.com/images/I/91GAgvnO3AL._UY200_RI_UY200_.jpg'>",
@@ -50,6 +50,7 @@ function addProduct() {
   count++;
   console.log(count);
   if (count >= movieArray.length - 1) {
+    //*** HIDE BUTTON WHEN THERE ARE NO MORE MOVIES ***//
     function hide() {
       var createButtonEle = document.getElementById('buttonSection');
       createButtonEle.innerHTML = '<br>';
