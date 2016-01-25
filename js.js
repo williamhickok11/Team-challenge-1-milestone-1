@@ -50,14 +50,14 @@ function deleteButton(button) {
 };
 
 //*** CHANGE THE BACKGROUND FUNCTION ***//
-function changeBG(this) {
-  var e = document.getElementById("ddlViewBy");
-  var strUser = e.options[e.selectedIndex].value;
+function changeBG(submit) {
+
+alert('hello')
 };
 
 
 
-//*** ADD CARDS TO THE DOM ***//
+// //*** ADD CARDS TO THE DOM ***//
 function addProduct() {
 	
   //*** KEEP TRACK OF THE NUMBER OF CLICKS ***//
