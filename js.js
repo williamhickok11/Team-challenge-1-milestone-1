@@ -41,7 +41,21 @@ movieArray.push(movie1);
 movieArray.push(movie2);	
 movieArray.push(movie3);	
 
+
 var count = -1;
+
+function deleteButton(button) {
+  button.parentNode.parentNode.removeChild(button.parentNode);
+  return false;
+};
+
+//*** CHANGE THE BACKGROUND FUNCTION ***//
+function changeBG(this) {
+  var e = document.getElementById("ddlViewBy");
+  var strUser = e.options[e.selectedIndex].value;
+};
+
+
 
 //*** ADD CARDS TO THE DOM ***//
 function addProduct() {
@@ -64,6 +78,7 @@ function addProduct() {
   
   //*** ADD CONTENT TO THE CARDS ***//
   var currentArticle = document.getElementById("movie" + count);
+  currentArticle.innerHTML += '<button onclick="deleteButton(this)">Delete</button>'
 	currentArticle.innerHTML += movieArray[count].title;
 	currentArticle.innerHTML += movieArray[count].imageURL;
 	currentArticle.innerHTML += movieArray[count].bgSelector;
